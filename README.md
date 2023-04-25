@@ -81,7 +81,12 @@ The main changes from V1.0.0 are:
 
 * The board (including antenna and batteries) weighs 12.7 g. Depending on the choice of antenna and battery, this can be heavier or lighter than V1.0.0.
 
+* The energy consumption is a little lower with 1 uA sleeping current @ 3 V rather than 1-2 uA  sleeping current @3.7 V. However, you should not feel the difference in practice.
+
 You can also find a summary of the changed in [this video](https://youtu.be/bDywcAplRWk).
+
+To summarize, V2.0.0 should be easier to use and probably the preferred version for most applications rather than V1.0.0.
+However, if you really want to minimize size and weight, you might still want to look at V1.0.0 since it offers more options for cusomization.
 
 ## Workflow
 
@@ -116,7 +121,7 @@ The two files `.mnb` and `.mnt` can be used for a pick-and-place machine and des
 
 The simplest way to replicate SnapperGPS is to upload the BOM, the Gerber files, the drill file, and the pick and place files to an online PCB manufacturing and assembly service. They will source the components, print the PCB, and assemble the board.
 
-We recommend a thickness between 0.8 and 1.6 mm for the two-layered board. The thinner, the lighter.
+We recommend a thickness between 0.8 and 1.6 mm for the four-layered board. The thinner, the lighter.
 The substrate can be FR-4 and hot air solder leveling (HASL) or electroless nickel immersion gold (ENIG) can be used for the finish.
 
 ## Hand Assembly
