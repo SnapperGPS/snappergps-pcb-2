@@ -81,9 +81,9 @@ The main changes from V1.0.0 are:
 
 * The board (including antenna and batteries) weighs 12.7 g. Depending on the choice of antenna and battery, this can be heavier or lighter than V1.0.0.
 
-* The energy consumption is a little lower with 1 uA sleeping current @ 3 V rather than 1-2 uA  sleeping current @3.7 V. However, you should not feel the difference in practice.
+* The energy consumption is a little lower with 1 μA sleeping current @ 3 V rather than 1-2 μA  sleeping current @3.7 V. However, you should not feel the difference in practice.
 
-You can also find a summary of the changed in [this video](https://youtu.be/bDywcAplRWk).
+You can also find a summary of the changes in [this video](https://youtu.be/bDywcAplRWk).
 
 To summarize, V2.0.0 should be easier to use and probably the preferred version for most applications rather than V1.0.0.
 However, if you really want to minimize size and weight, you might still want to look at V1.0.0 since it offers more options for cusomization.
@@ -102,7 +102,7 @@ However, if you really want to minimize size and weight, you might still want to
 
 You already have a SnapperGPS receiver?
 See [here](GETTING-STARTED.md) how to get started.
-The instruction are for V1.0.0, but V2.0.0 works very similar.
+The instructions are for V1.0.0, but V2.0.0 works very similar.
 For differences, check out [this video](https://youtu.be/bDywcAplRWk).
 
 You need to build a receiver first? Keep reading.
