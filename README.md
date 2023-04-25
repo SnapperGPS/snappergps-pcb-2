@@ -8,7 +8,7 @@ It employs the snapshot GNSS technology, which offloads the computational expens
 
 * Operates for more than a year on two LR44 or SR44 batteries,
 
-* Weighs 12.7 g (including batteries),
+* Weighs 12.7 g or 17.7 g (depending on the version, both including batteries and antenna),
 
 * Has enough memory to provide 11,000 or 22,000 position fixes (depending on the version),
 
