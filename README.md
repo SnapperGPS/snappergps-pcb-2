@@ -10,7 +10,7 @@ It employs the snapshot GNSS technology, which offloads the computational expens
 
 * Weighs 12.7 g or 17.7 g (depending on the version, both including batteries and antenna),
 
-* Has enough memory to provide 11,000 or 22,000 position fixes (depending on the version),
+* Has enough memory to provide about 11,000 or 22,000 position fixes (depending on the version),
 
 * Captures fixes in user-defined time intervals or externally triggered,
 
@@ -123,6 +123,8 @@ The simplest way to replicate SnapperGPS is to upload the BOM, the Gerber files,
 
 We recommend a thickness between 0.8 and 1.6 mm for the four-layered board. The thinner, the lighter.
 The substrate can be FR-4 and hot air solder leveling (HASL) or electroless nickel immersion gold (ENIG) can be used for the finish.
+
+You can find an FAQ on prefessional manufacturing in [the discussions forum](https://github.com/orgs/SnapperGPS/discussions/22).
 
 ## Hand Assembly
 
