@@ -43,7 +43,7 @@ For the cloud-processing software:
 
 | ![SnapperGPS PCB](images/black-bottom.png) ![SnapperGPS PCB](images/black-top.png) | 
 |:--:| 
-| *Figure 1: Bottom and top view of a SnnapperGPS receiver V2.0.0.* |
+| *Figure 1: Bottom and top view of a SnapperGPS receiver V2.0.0.* |
 
 **Table of Contents**
 
