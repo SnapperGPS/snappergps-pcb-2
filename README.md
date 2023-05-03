@@ -1,3 +1,5 @@
+*Work in progress.*
+
 # snappergps-pcb-2
 
 This is an alternative version of [the original SnapperGPS receiver V1.0.0](https://github.com/SnapperGPS/snappergps-pcb).
