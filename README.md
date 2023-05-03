@@ -73,7 +73,7 @@ The main changes from V1.0.0 are:
 
 * The antenna is integrated into the PCB. No external active antenna is required anymore. However, an external active antenna can still be used optionally.
 
-* The receiver is powered by two LR44 or SR44 batteries rather than a lithium-ion polymer (LiPo) battery. These are easier to obtain, cheaper, and simpler to ship, but also a bit heavier and prevent the use of custom battery sizes. Alternatively, smaller and lighter LR41 or SR41 batteries can be used, which are harder to find than LR44 batteries, but easier to ship than LiPo batteries.
+* The receiver is powered by two LR44 or SR44 batteries rather than a lithium-ion polymer (LiPo) battery. These are easier to obtain, cheaper, and simpler to ship, but also a bit heavier and prevent the use of custom battery sizes. Alternatively, smaller and lighter LR41 or SR41 batteries can be used, which are harder to find than LR44 batteries, but still easier to ship than LiPo batteries.
 
 * The board is a bit larger with 36.4 mm x 31.2 mm, although, this now includes the antenna and battery footprints.
 
@@ -85,7 +85,7 @@ The main changes from V1.0.0 are:
 
 You can also find a summary of the changes in [this video](https://youtu.be/bDywcAplRWk).
 
-To summarize, V2.0.0 should be easier to use and probably the preferred version for most applications rather than V1.0.0.
+To summarise, V2.0.0 should be easier to use and probably the preferred version for most applications rather than V1.0.0.
 However, if you really want to minimize size and weight, you might still want to look at V1.0.0 since it offers more options for cusomization.
 
 ## Workflow
