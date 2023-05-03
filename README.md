@@ -8,7 +8,7 @@ It employs the snapshot GNSS technology, which offloads the computational expens
 
 * Operates for more than a year on two LR44 or SR44 batteries,
 
-* Weighs 12.7 g or 17.7 g (depending on the version, both including batteries and antenna),
+* Weighs 12.7 g or 17.7 g (depending on the version, both including batteries and antenna) or < 10 g with smaller LR41/SR41 batteries,
 
 * Has enough memory to provide about 11,000 or 22,000 position fixes (depending on the version),
 
@@ -73,13 +73,13 @@ The main changes from V1.0.0 are:
 
 * The antenna is integrated into the PCB. No external active antenna is required anymore. However, an external active antenna can still be used optionally.
 
-* The receiver is powered by two LR44 or SR44 batteries rather than a lithium-ion polymer (LiPo) battery. These are easier to obtain, cheaper, and simpler to ship, but also a bit heavier and prevent the use of custom battery sizes.
+* The receiver is powered by two LR44 or SR44 batteries rather than a lithium-ion polymer (LiPo) battery. These are easier to obtain, cheaper, and simpler to ship, but also a bit heavier and prevent the use of custom battery sizes. Alternatively, smaller and lighter LR41 or SR41 batteries can be used, which are harder to find than LR44 batteries, but easier to ship than LiPo batteries.
 
 * The board is a bit larger with 36.4 mm x 31.2 mm, although, this now includes the antenna and battery footprints.
 
 * There are two version with different memory sizes, either large enough to collect data for 11,000 or 22,000 fixes. Initially, V1.0.0 only supported the smaller memory version, although, it can now be upgraded to the larger memory version, too.
 
-* The board (including antenna and batteries) weighs 12.7 g. Depending on the choice of antenna and battery, this can be heavier or lighter than V1.0.0.
+* The board (including antenna and batteries) weighs at least around 10 g. Depending on the choice of antenna and battery, this can be heavier or lighter than V1.0.0.
 
 * The energy consumption is a little lower with 1 μA sleeping current @ 3 V rather than 1-2 μA  sleeping current @3.7 V. However, you should not feel the difference in practice.
 
@@ -259,7 +259,7 @@ Front           │           │ Back
 |ANT1                                          |  1|Taoglas                       |GP.1575.25.2.A.02 *or* GP.1575.25.4.A.02|GPS/GALILEO patch antenna                                   |25x25            |through-hole |                                                                               |                                                                                                       |
 |U6                                            |  1|Texas Instruments             |TPS61291DRVT                           |Boost Switching Regulator IC                                 |6-WSON           |SMD          |                                                                               |                                                                                                       |
 |U7                                            |  1|Taiyo Yuden                   |MDMK2020T3R3MM                         |Fixed inductor, 3.3 uH, 1.15 A, 178 MOhm                     |2x2              |SMD          |                                                                               |                                                                                                       |
-|J4, J5                                        |  2|Keystone Electronics          |2996                                   |Battery holder                                               |                 |             |Possible substitute: Keystone Electronics, 2996TR                              |                                                                                                       |
+|J4, J5                                        |  2|Keystone Electronics *or* Hong Kong CCD|2996 *or* 704833              |Battery holder (LR44/SR44 *or* LR41/SR41)                                 |                 |             |Possible substitute: Keystone Electronics, 2996TR                              |                                                                                                       |
 |                                              |   |                              |                                       |                                                             |                 |             |                                                                               |                                                                                                       |
 
 The BOM differs slightly from the one for initial SnapperGPS test boards, which was cheaper.
@@ -268,7 +268,7 @@ We had to introduce this change because of the on-going global supply chain disr
 
 ## Additional resources
 
-## Acknowledgementss
+## Acknowledgements
 
 This SnapperGPS receiver version was developed and is maintained by
 [Jonas Beuchert](https://users.ox.ac.uk/~kell5462/) under supervision of
