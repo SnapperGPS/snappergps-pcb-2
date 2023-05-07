@@ -227,9 +227,26 @@ Front           │           │ Back
 The table below lists the electronic components that are needed to assemble a single SnapperGPS board.
 For four components, you have got two options each to create different SnapperGPS versions based on an identical PCB:
 * IC1: This is the memory chip. If you choose the Winbond Electronics W25N01GVZEIG with 1 GBit memory, then you can store up to 21824 snapshots while the Winbond Electronics W25N512GVEIG with 512 MBit provides enough memory for 10901 snapshots.
-* J3: This antenna connector is optional and only needed if you would like to connect an external active antenna instead of using ANT1 or for debugging purposes.
-* ANT1: This is the passive antenna on the board. The Taoglas GP.1575.25.2.A.02 is thinner (2 mm) than the Taoglas GP.1575.25.4.A.02 (4 mm), but both have the same footprint (25 mm x 25 mm). The weight difference is 5 g. If weight and size are crucial, choose the former, if not, choose the latter since it provides better signal quality.
-* J4, J5: These are the battery holders. Use the Keystone Electronics 2996 or 2996TR for LR44 and SR44 button batteries, which are easy to source. Use Hong Kong CCD 704833 or similar for LR41 and SR41 button batteries. These are a bit harder to source, but using them saves about 3 g in total.                             |               
+* J3: This antenna connector is optional and only needed if you would like to connect an external active antenna instead of using ANT1 or for debugging purposes (Figure 5).
+* ANT1: This is the passive antenna on the board. The Taoglas GP.1575.25.2.A.02 (Figure 3, 4) is thinner (2 mm) than the Taoglas GP.1575.25.4.A.02 (Figure 2, 4 mm), but both have the same footprint (25 mm x 25 mm). The weight difference is 5 g. If weight and size are crucial, choose the former, if not, choose the latter since it provides better signal quality.
+* J4, J5: These are the battery holders. Use the Keystone Electronics 2996 or 2996TR for LR44 and SR44 button batteries (Figure 2, 3, 5), which are easy to source. Use Hong Kong CCD 704833 or similar for LR41 and SR41 button batteries (Figure 4). These are a bit harder to source, but using them saves about 3 g in total.
+
+
+| ![SnapperGPS PCB](images/lr44-4mm-bottom.png) ![SnapperGPS PCB](images/lr44-4mm-top.png) | 
+|:--:| 
+| *Figure 2: Bottom and top view of a SnapperGPS receiver V2.0.0 with holders for LR44/SR44 batteries and a 4 mm thick passive antenna.* |
+
+| ![SnapperGPS PCB](images/lr44-2mm-top.png) | 
+|:--:| 
+| *Figure 3: Top view of a SnapperGPS receiver V2.0.0 with holders for LR44/SR44 batteries and a 2 mm thick passive antenna.* |
+
+| ![SnapperGPS PCB](images/lr41-2mm-bottom.png) | 
+|:--:| 
+| *Figure 4: Bottom view of a SnapperGPS receiver V2.0.0 with holders for LR41/SR41 batteries and a 2 mm thick passive antenna.* |
+
+| ![SnapperGPS PCB](images/lr44-active.png) | 
+|:--:| 
+| *Figure 5: SnapperGPS receiver V2.0.0 with holders for LR44/SR44 batteries and an external active antenna connected via an U.FL connector.* |
 
 |Designator                                    |Qty|Manufacturer                  |Part #                                 |Description/Value                                            |Package/Footprint|Mounting Type|Notes                                                                          |Supplier URL                                                                                           |
 |----------------------------------------------|--:|------------------------------|---------------------------------------|-------------------------------------------------------------|-----------------|-------------|-------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
