@@ -1,7 +1,7 @@
 {
     "Header": {
         "Comment": "All values are metric (mm)",
-        "CreationDate": "2023-02-13T03:44:34Z",
+        "CreationDate": "2023-05-09T14:24:38Z",
         "GenerationSoftware": {
             "Application": "EAGLE",
             "Vendor": "Autodesk",
@@ -10,15 +10,15 @@
         "Part": "Single"
     },
     "Overall": {
-        "BoardThickness": 0.8,
+        "BoardThickness": 0.76,
         "LayerNumber": 4,
         "Name": {
-            "ProjectId": "snappergps_board_2_9_four_layers"
+            "ProjectId": "snappergps_board_2_0_0"
         },
         "Owner": "Jonas Beuchert <jonas@snappergps.info>",
         "Size": {
-            "X": 31.168028,
-            "Y": 36.434372
+            "X": 31.168025,
+            "Y": 36.434375
         }
     }
 }
