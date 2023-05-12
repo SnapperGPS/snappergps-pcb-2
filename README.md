@@ -86,7 +86,7 @@ The main changes from V1.0.0 are:
 You can also find a summary of the changes in [this video](https://youtu.be/bDywcAplRWk).
 
 To summarise, V2.0.0 should be easier to use and probably the preferred version for most applications rather than V1.0.0.
-However, if you really want to minimize size and weight, you might still want to look at V1.0.0 since it offers more options for cusomization.
+However, if you really want to minimize size and weight, you might still want to look at V1.0.0 since it offers more options for customization.
 
 ## Workflow
 
