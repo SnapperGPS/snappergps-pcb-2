@@ -81,7 +81,7 @@ The main changes from V1.0.0 are:
 
 * The board (including antenna and batteries) weighs at least around 10 g. Depending on the choice of antenna and battery, this can be heavier or lighter than V1.0.0.
 
-* The energy consumption is a little lower with 1 μA sleeping current @ 3 V rather than 1-2 μA  sleeping current @3.7 V. However, you should not feel the difference in practice.
+* The energy consumption is a little lower with 1 μA sleeping current @ 3 V rather than 1-2 μA  sleeping current @ 3.7 V. However, you should not feel the difference in practice.
 
 You can also find a summary of the changes in [this video](https://youtu.be/bDywcAplRWk).
 
