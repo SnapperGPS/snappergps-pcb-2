@@ -111,8 +111,6 @@ You need to build a receiver first? Keep reading.
 
 The two files `.brd` and `.sch` are CAD files that contain the PCB's board design and schematic, respectively. They have been created with Autodesk EAGLE 9.6.2, but should be compatible with other electronic design software.
 
-The table `.csv` contains the bill of materials (BOM).
-
 The directory `CAMOutputs` includes the Gerber files and drill file, which are necessary for PCB manufacturing.
 
 The two files `.mnb` and `.mnt` can be used for a pick-and-place machine and describe the component positions and orientations on the bottom and top layer, respectively.
